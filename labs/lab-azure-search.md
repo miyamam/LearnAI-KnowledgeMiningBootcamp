@@ -67,7 +67,7 @@ Using the Azure Search service created in the previous lab, you will use the "Im
 
 - **Name** your indexer as you want,  keep the schedule as **once**. The indexer is the job that connects the data source, the index and the schedule
 
-- Click the blue **Submit** button, and you will be redirected to the overview tab, where now you can see 1 index, 1 indexer and 1 data source (you may have to refresh your page).
+- Click the blue **OK** button, and you will be redirected to the overview tab, where now you can see 1 index, 1 indexer and 1 data source (you may have to refresh your page).
 
 ![Overview tab](../resources/images/lab-azure-search/redirect.png)
 
