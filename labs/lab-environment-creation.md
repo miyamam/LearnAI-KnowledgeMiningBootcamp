@@ -54,7 +54,7 @@ The enrichment pipeline pulls from Azure data sources. Source data must originat
  1. Create a **storage account** in the **same region of your Azure Search service** created in the step above, to avoid latency between the search service and the files.  Use a **general purpose** account and **LRS replication**. For production environments, you may need to use another replication type. If you haven't done this before, you can refer to the [Azure Storage Explorer Quickstart](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows) for instructions on all the steps.
 
  1. Within this storage account, create a **container** named **`basicdemo`**. 
-    - To create a container, select the storage account, click the CONTAINERS tab and click **ADD CONTAINER** at the bottom of the screen, which opens a new dialog box. 
+    - To create a container, select the storage account, then select the blob, click the CONTAINERS tab and click **ADD CONTAINER** at the bottom of the screen, which opens a new dialog box. 
     - Enter a name for the container. 
     - Select **Private** for Access Type. When you set the access to private, the container and blob data can be read by the Windows Azure account owner only.
 
